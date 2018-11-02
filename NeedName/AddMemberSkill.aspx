@@ -6,6 +6,10 @@
 <head runat="server">
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/jquery-3.3.1.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.bundle.js"></script>
+
     <title></title>
     <style>
         .container {
