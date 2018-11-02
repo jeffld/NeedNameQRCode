@@ -1,19 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="admin.aspx.cs" Inherits="admin" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>QR Code Sample</title>
+    <title>Admin</title>
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/jquery-3.3.1.js"></script>
     <script src="Scripts/popper.js"></script>
     <script src="Scripts/bootstrap.bundle.js"></script>
-    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">NeedName</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -42,22 +41,5 @@
     </ul>
   </div>
 </nav>
-    <div style="padding-top:25px;"></div>
-    <main role="main" class="container">
-      <div class="jumbotron">
-        <h1>QR Code Creation Sample</h1>
-
-        <div>
-            <input id="data" type="text" value="Enter QR-Code data"/>
-            <div style="padding-top:25px;"></div>
-            <div id="qrcode"></div>
-        </div>
-
-          </div>
-</div>
-
-    
-    <script src="js/qrcodefunction.js"></script>
-    <script src="js/qrcode.js"></script>
 </body>
 </html>
