@@ -39,6 +39,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="AddmemberSkill.aspx">Add Member Skill</a>
+          <a class="dropdown-item" href="Addmember.aspx">Add Member</a>
           <a class="dropdown-item" href="#">Another action</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
@@ -50,6 +51,10 @@
 </nav>
     <form id="form1" runat="server">
       <div class="container">
+
+          <div class="form-group col-sm-12">
+          <h1>Add Member Skill</h1>
+              </div>
 
       <div class="form-group col-sm-3">
         <label for="memberID">Member ID</label>

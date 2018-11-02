@@ -32,6 +32,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="AddmemberSkill.aspx">Add Member Skill</a>
+            <a class="dropdown-item" href="Addmember.aspx">Add Member</a>
           <a class="dropdown-item" href="#">Another action</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
